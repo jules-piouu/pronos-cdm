@@ -92,6 +92,16 @@
  .pill{background:rgba(255,255,255,.05);border:1px solid var(--bord);border-radius:20px;
    padding:4px 11px;font-size:12.5px;color:var(--muted)}
  .pill b{font-family:var(--mono);color:var(--txt)}
+ .elo{margin-top:14px;font-size:13px;color:var(--muted);display:flex;
+   align-items:center;gap:8px;flex-wrap:wrap}
+ .elo b{color:var(--txt);font-family:var(--mono)}
+ .elo-l{color:var(--gold);font-weight:600;font-size:12px;border:1px solid rgba(245,196,81,.3);
+   border-radius:6px;padding:1px 7px}
+ .elo-sep{color:var(--faint)}
+ .elo-ok{color:var(--green);font-size:11.5px;border:1px solid rgba(48,209,88,.3);
+   border-radius:20px;padding:1px 8px}
+ .elo-no{color:var(--orange);font-size:11.5px;border:1px solid rgba(255,159,10,.35);
+   border-radius:20px;padding:1px 8px}
  .actus{margin-top:16px;border-top:1px solid var(--bord);padding-top:12px}
  .actus-t{display:inline-flex;align-items:center;color:var(--gold);font-size:12.5px;
    font-weight:600;letter-spacing:.3px}
@@ -112,7 +122,7 @@
 <header class="hero">
  <div class="kicker">World Cup 2026</div>
  <h1>The secret sauce</h1>
- <p>Tableau de bord du 10/06/2026 a 20h59 &middot; heure de Paris</p>
+ <p>Tableau de bord du 10/06/2026 a 21h07 &middot; heure de Paris</p>
  <div class="demo">Resultat : cotes The Odds API (marche) &middot; Score : moyennes de buts API-Football. Le score exact reste incertain (aide a la decision).</div>
 </header>
 <div class="wrap"><section class="top-jour"><h3><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Coups surs du jour</h3><div class="top-grille"><div class="top-item"><span class="top-flags">🇲🇽 🇿🇦</span><div class="top-mid"><span class="top-pick">Victoire Mexique</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">15%</span></span></div><span class="top-pct" style="color:#30d158">68%</span></div><div class="top-item"><span class="top-flags">🇨🇦 🇧🇦</span><div class="top-mid"><span class="top-pick">Victoire Canada</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">12%</span></span></div><span class="top-pct" style="color:#ff9f0a">53%</span></div><div class="top-item"><span class="top-flags">🇰🇷 🇨🇿</span><div class="top-mid"><span class="top-pick">Victoire Coree du Sud</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">10%</span></span></div><span class="top-pct" style="color:#ff453a">36%</span></div></div></section><h2>Mercredi 10 juin</h2><p class="vide">Aucun match ce jour-la.</p><h2>Jeudi 11 juin <span class="compte">1 match</span></h2><div class="grille">
@@ -140,8 +150,9 @@
         <span class="pct pct-or">15%</span>
       </div>
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 0 <b>15%</b></span><span class="pill">3 - 0 <b>9%</b></span></div>
+      <div class="elo"><span class="elo-l">Elo</span> Mexique <b>#18</b> <span class="elo-sep">vs</span> Afrique du Sud <b>#80</b> <span class="elo-ok">concorde</span></div>
       <div class="actus"><span class="actus-t"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>&nbsp;Actus fraiches</span><ul class="actu-list"><li>Mexique en pleine confiance : 8 amicaux sans défaite en 2026, dont 5-1 vs Serbie, 2-0 vs Ghana et 1-0 vs Australie. <a class="src" href="https://www.espn.com/soccer/story/_/id/49007230/world-cup-2026-mexico-vs-south-africa-kickoff-how-watch-stats-team-news" target="_blank" rel="noopener">ESPN</a></li><li>Afrique du Sud en manque de réussite offensive avant le tournoi : 0-0 vs Nicaragua et 1-1 vs Jamaïque. <a class="src" href="https://www.rotowire.com/soccer/article/mexico-vs-south-africa-preview-predicted-lineups-team-news-world-cup-preview-117405" target="_blank" rel="noopener">Rotowire</a></li><li>Avantage du terrain à l&#x27;Estadio Azteca ; cadres mexicains (Álvarez, Vega, Montes) remis de petits pépins et aptes. <a class="src" href="https://www.espn.com/soccer/story/_/id/49007230/world-cup-2026-mexico-vs-south-africa-kickoff-how-watch-stats-team-news" target="_blank" rel="noopener">ESPN</a></li></ul><div class="adj">Forme et contexte vont dans le sens du marché : Victoire Mexique confortée.</div></div>
-      <div class="args">Sources donnees : Cotes : The Odds API (39 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles</div>
+      <div class="args">Sources donnees : Cotes : The Odds API (39 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles &middot; Elo : eloratings.net</div>
     </article></div><h2>Vendredi 12 juin <span class="compte">2 matchs</span></h2><div class="grille">
     <article class="carte" tabindex="0">
       <div class="entete">
@@ -167,8 +178,9 @@
         <span class="pct pct-or">10%</span>
       </div>
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 1 <b>8%</b></span><span class="pill">2 - 0 <b>7%</b></span></div>
+      <div class="elo"><span class="elo-l">Elo</span> Coree du Sud <b>#33</b> <span class="elo-sep">vs</span> Tchequie <b>#35</b> <span class="elo-no">diverge du marche</span></div>
       <div class="actus"><span class="actus-t"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>&nbsp;Actus fraiches</span><ul class="actu-list"><li>Corée du Sud privée du défenseur Cho Yu-min (blessure au pied) ; attaque portée par Son Heung-min et Lee Kang-in. <a class="src" href="https://www.espn.com/soccer/story/_/id/49009977/fifa-world-cup-2026-south-korea-vs-czechia-kickoff-how-watch-stats-team-news" target="_blank" rel="noopener">ESPN</a></li><li>Tchéquie invaincue sur ses 6 derniers matchs, avec le danger Patrik Schick (16 buts en Bundesliga cette saison). <a class="src" href="https://www.rotowire.com/soccer/article/south-korea-vs-czechia-preview-prediction-lineups-odds-2026-world-cup-group-a-117538" target="_blank" rel="noopener">Rotowire</a></li><li>Signal d&#x27;alerte coréen : 0 but dans le jeu sur 180 min face à la Côte d&#x27;Ivoire et l&#x27;Autriche en mars. <a class="src" href="https://www.rotowire.com/soccer/article/south-korea-vs-czechia-preview-prediction-lineups-odds-2026-world-cup-group-a-117538" target="_blank" rel="noopener">Rotowire</a></li></ul><div class="adj">Match jugé serré par le marché (favori à ~36%) : confiance faible, prudence sur ce prono.</div></div>
-      <div class="args">Sources donnees : Cotes : The Odds API (38 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles</div>
+      <div class="args">Sources donnees : Cotes : The Odds API (38 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles &middot; Elo : eloratings.net &middot; NB : l&#x27;Elo penche autrement que le marche (prudence)</div>
     </article>
     <article class="carte" tabindex="0">
       <div class="entete">
@@ -194,8 +206,9 @@
         <span class="pct pct-or">12%</span>
       </div>
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 0 <b>11%</b></span><span class="pill">2 - 1 <b>9%</b></span></div>
+      <div class="elo"><span class="elo-l">Elo</span> Canada <b>#25</b> <span class="elo-sep">vs</span> Bosnie-Herzegovine <b>#65</b> <span class="elo-ok">concorde</span></div>
       <div class="actus"><span class="actus-t"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>&nbsp;Actus fraiches</span><ul class="actu-list"><li>Canada : capitaine Alphonso Davies très incertain (ischio-jambiers), sans match avec la sélection cette année ; Bombito douteux. <a class="src" href="https://worldsoccertalk.com/world-cup/alphonso-davies-provides-injury-update-ahead-of-canadas-2026-world-cup-debut-vs-bosnia-and-herzegovina/" target="_blank" rel="noopener">World Soccer Talk</a></li><li>Bosnie : Edin Džeko incertain (épaule), Tabaković (métatarse) et Šunjić également douteux. <a class="src" href="https://www.sportsmole.co.uk/football/canada/world-cup-2026/team-news/canada-vs-bosnia-herzegovina-injury-suspension-list-predicted-xis_598904.html" target="_blank" rel="noopener">Sports Mole</a></li><li>Les deux équipes sont invaincues sur leurs 8 derniers matchs ; le Canada joue à domicile à Toronto. <a class="src" href="https://www.sportsmole.co.uk/football/canada/world-cup-2026/preview/canada-vs-bosnia-hvina-prediction-team-news-lineups_598907.html" target="_blank" rel="noopener">Sports Mole</a></li></ul><div class="adj">Beaucoup d&#x27;incertitudes de composition des deux côtés : à revérifier le matin du match.</div></div>
-      <div class="args">Sources donnees : Cotes : The Odds API (38 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles</div>
+      <div class="args">Sources donnees : Cotes : The Odds API (38 bookmakers) &middot; Score : marche The Odds API (1X2 + totaux, 15 bookmakers) cale par modele Poisson-Dixon-Coles &middot; Elo : eloratings.net</div>
     </article></div></div>
 <footer>Genere automatiquement &mdash; un pronostic foot reste incertain : ceci est une aide a la decision, pas une garantie.</footer>
 </body></html>
