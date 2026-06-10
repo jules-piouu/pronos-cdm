@@ -94,6 +94,9 @@
    background:rgba(245,196,81,.08);border:1px solid rgba(245,196,81,.22);
    border-radius:16px;padding:12px 14px}
  .score{font-family:var(--mono);font-weight:600;font-size:22px;color:var(--gold);letter-spacing:-1px}
+ .glob{margin-top:10px;font-size:12.5px;color:#cbd5e1;background:rgba(122,183,255,.07);
+   border:1px solid rgba(122,183,255,.2);border-radius:10px;padding:7px 11px}
+ .glob b{font-family:var(--mono);color:var(--txt)}
  .autres{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px}
  .autres-l{font-size:12px;color:var(--faint);margin-right:2px}
  .pill{background:rgba(255,255,255,.05);border:1px solid var(--bord);border-radius:20px;
@@ -143,7 +146,7 @@
 <header class="hero">
  <div class="kicker">World Cup 2026</div>
  <h1>The secret sauce</h1>
- <p>Tableau de bord du 10/06/2026 a 22h04 &middot; heure de Paris</p>
+ <p>Tableau de bord du 10/06/2026 a 22h51 &middot; heure de Paris</p>
  <div class="demo">Resultat : cotes The Odds API (marche) &middot; Score : moyennes de buts API-Football. Le score exact reste incertain (aide a la decision).</div>
 </header>
 <div class="wrap"><section class="bilan bilan-vide"><span class="bilan-l">Bilan</span> aucun match encore evalue &mdash; le suivi de precision demarrera des les premiers resultats.</section><section class="top-jour"><h3><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Coups surs du jour</h3><div class="top-grille"><div class="top-item"><span class="top-flags">🇲🇽 🇿🇦</span><div class="top-mid"><span class="top-pick">Victoire Mexique</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">17%</span></span></div><span class="top-pct" style="color:#30d158">72%</span></div><div class="top-item"><span class="top-flags">🇨🇦 🇧🇦</span><div class="top-mid"><span class="top-pick">Victoire Canada</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">17%</span></span></div><span class="top-pct" style="color:#ff9f0a">58%</span></div><div class="top-item"><span class="top-flags">🇰🇷 🇨🇿</span><div class="top-mid"><span class="top-pick">Victoire Coree du Sud</span><span class="top-score"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>&nbsp;Score conseille : <b>1 - 0</b> <span class="top-score-pct">11%</span></span></div><span class="top-pct" style="color:#ff453a">39%</span></div></div></section><h2>Mercredi 10 juin</h2><p class="vide">Aucun match ce jour-la.</p><h2>Jeudi 11 juin <span class="compte">1 match</span></h2><div class="grille">
@@ -170,6 +173,7 @@
         <span class="score">1 - 0</span>
         <span class="pct pct-or">17%</span>
       </div>
+      
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 0 <b>16%</b></span><span class="pill">3 - 0 <b>10%</b></span></div>
       <div class="sim"><span class="sim-l">Simule 10 000x</span><span class="sim-stat">Les deux marquent <b>35%</b></span><span class="sim-stat">+2,5 buts <b>45%</b></span><span class="sim-stat">buts moy. <b>2,5</b></span></div>
       <div class="elo"><span class="elo-l">Elo</span> Mexique <b>#18</b> <span class="elo-sep">vs</span> Afrique du Sud <b>#80</b> <span class="elo-ok">concorde</span></div>
@@ -200,6 +204,7 @@
         <span class="score">1 - 0</span>
         <span class="pct pct-or">11%</span>
       </div>
+      <div class="glob">Score le plus probable, toutes issues confondues : <b>1 - 1</b> (13% &middot; match nul)</div>
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 1 <b>9%</b></span><span class="pill">2 - 0 <b>7%</b></span></div>
       <div class="sim"><span class="sim-l">Simule 10 000x</span><span class="sim-stat">Les deux marquent <b>51%</b></span><span class="sim-stat">+2,5 buts <b>45%</b></span><span class="sim-stat">buts moy. <b>2,5</b></span></div>
       <div class="elo"><span class="elo-l">Elo</span> Coree du Sud <b>#33</b> <span class="elo-sep">vs</span> Tchequie <b>#35</b> <span class="elo-no">diverge du marche</span></div>
@@ -230,6 +235,7 @@
         <span class="score">1 - 0</span>
         <span class="pct pct-or">17%</span>
       </div>
+      
       <div class="autres"><span class="autres-l">Autres scores</span><span class="pill">2 - 0 <b>13%</b></span><span class="pill">2 - 1 <b>8%</b></span></div>
       <div class="sim"><span class="sim-l">Simule 10 000x</span><span class="sim-stat">Les deux marquent <b>39%</b></span><span class="sim-stat">+2,5 buts <b>39%</b></span><span class="sim-stat">buts moy. <b>2,2</b></span></div><div class="sim-adj">Ajustement actus pris en compte : Davies (Canada) et Džeko (Bosnie) incertains : moins de poids offensif des deux côtés → match attendu plus fermé.</div>
       <div class="elo"><span class="elo-l">Elo</span> Canada <b>#25</b> <span class="elo-sep">vs</span> Bosnie-Herzegovine <b>#65</b> <span class="elo-ok">concorde</span></div>
